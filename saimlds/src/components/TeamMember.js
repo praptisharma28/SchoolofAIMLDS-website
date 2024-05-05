@@ -15,7 +15,7 @@ const data = [
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714920828/Members%20pics/Priyanshu_Mishra_1_y3yidl.jpg",
     name: "Priyanshu Mishra",
-    insta: "https://www.instagram.com/prapti.sharma_/",
+    insta: "https://www.instagram.com/prapti.sharma_.../",
     Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
   },
   {
