@@ -34,14 +34,13 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917681/Members%20pics/80961b97-6e8a-4d14-8f6d-583f168c3918_hek6ht.jpg" alt="Image" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" alt="Image" />
                                 <h5>Brand Identity</h5>
                             </div>
                             <div className="item">
