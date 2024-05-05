@@ -35,20 +35,20 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917681/Members%20pics/80961b97-6e8a-4d14-8f6d-583f168c3918_hek6ht.jpg" alt="Image" />
-                                <h5>Web Development</h5>
+                            <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917681/Members%20pics/80961b97-6e8a-4d14-8f6d-583f168c3918_hek6ht.jpg" alt="Image" style={{borderRadius:"10px"}}/>
+                                <h5 style={{textAlign:"center"}}>Web Development</h5>
                             </div>
-                            <div className="item">
-                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" alt="Image" />
+                            <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
                                 <h5>Brand Identity</h5>
                             </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
+                            <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
                                 <h5>Logo Design</h5>
                             </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
+                            <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
                                 <h5>Web Development</h5>
                             </div>
                         </Carousel>

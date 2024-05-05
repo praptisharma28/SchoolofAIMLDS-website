@@ -95,16 +95,16 @@ Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
 const TeamMember = () => {
   const responsive = {
     superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      breakpoint: { max: 4000, min: 1200 },
+      items: 4,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      breakpoint: { max: 1200, min: 1024 },
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3,
+      items: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -129,14 +129,13 @@ const TeamMember = () => {
                   <div
                     className="item"
                     key={index}
-                    style={{ marginBottom: "5px" }}
                   >
-                    <img src={item.img} alt="Image"  className="teamMemberImg" style={{width:"200px", height:"200px",objectFit:"cover"}}/>
+                    <img src={item.img} alt="Image"  className="teamMemberImg" />
                     <h5>{item.name}</h5>
                     <p>{item.role}</p>
                     <div className="social-icon">
-                <a href={item.Linkedin} target="_blank"><img src={navIcon1} alt="" style={{marginTop:"10px"}}/></a>
-                <a href={item.insta} target="_blank"><img src={navIcon3} style={{marginTop:"13px"}} alt="" /></a>
+                    <a href={item.Linkedin} target="_blank"><img src={navIcon1} alt="" style={{marginTop:"10px"}}/></a>
+                    <a href={item.insta} target="_blank"><img src={navIcon3} style={{marginTop:"13px"}} alt="" /></a>
               </div>
                   </div>
                 ))}
