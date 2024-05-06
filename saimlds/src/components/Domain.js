@@ -66,7 +66,7 @@ const Domain = () => {
       >
         {selectedDomain && (
           <div style={{zIndex:"1000",position:"relative" }}>
-            <h2 >
+            <h2 style={{width:"85%"}}>
               {selectedDomain.name}
             </h2>
             <div style={{color:"white"}}>
