@@ -361,7 +361,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
   position: relative;
   width: 260px;
-  height: 280px;
+  height: 380px;
   border-radius: 16px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
@@ -673,7 +673,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 80px 0;
 }
 .contact img {
   width: 92%;
@@ -766,7 +766,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     gap: 20px;
   }
   .skill-slider .item{
-    height: 340px;
+    height: 360px;
   }
   .skill-slider .item .teamMemberImg{
     width: 150px;
