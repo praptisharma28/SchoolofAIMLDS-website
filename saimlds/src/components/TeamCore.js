@@ -1,6 +1,6 @@
 import React from "react";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/github-alt-svgrepo-com.svg";
 
 const data = [
   {
@@ -73,6 +73,8 @@ const TeamCore = () => {
                         <a href={val.insta} target="_blank">
                           <img
                             src={navIcon3}
+                            width={"100px"}
+                            height={"100px"}
                             alt=""
                           />
                         </a>

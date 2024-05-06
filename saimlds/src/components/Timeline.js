@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { AiFillChrome } from "react-icons/ai";
 const Timeline = () => {
   return (
-    <div className="timeline">
+    <div className="timeline" id="event">
       <h1 style={{textAlign:"center",margin:"100px 0 60px 0"}}>Our Events</h1>
       <VerticalTimeline>
       <VerticalTimelineElement
