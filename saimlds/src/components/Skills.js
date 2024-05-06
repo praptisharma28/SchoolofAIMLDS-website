@@ -37,19 +37,19 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
                                 <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917681/Members%20pics/80961b97-6e8a-4d14-8f6d-583f168c3918_hek6ht.jpg" alt="Image" style={{borderRadius:"10px"}}/>
-                                <h5 style={{textAlign:"center"}}>Web Development</h5>
+                                <h5 style={{textAlign:"center"}}></h5>
                             </div>
                             <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
                                 <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5></h5>
                             </div>
                             <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
-                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714980976/Members%20pics/d8088a02-255b-421a-ae25-351aaf16cf38_lszgfy.jpg" style={{borderRadius:"10px"}} alt="Image" />
+                                <h5></h5>
                             </div>
                             <div className="item" style={{transition:"all 300 ease-in",padding:"10px"}}>
-                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714917668/Members%20pics/15073d60-4c89-492f-824a-7683ccaf5665_qjq90e.jpg" style={{borderRadius:"10px"}} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714980963/Members%20pics/675d0a47-7855-4f31-ada6-83d029d1b333_evefe3.jpg" style={{borderRadius:"10px"}} alt="Image" />
+                                <h5></h5>
                             </div>
                         </Carousel>
                     </div>

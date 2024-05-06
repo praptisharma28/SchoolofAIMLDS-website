@@ -7,7 +7,7 @@ const About = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h1>About Me</h1>
+                        <h1>About Us</h1>
                     </div>
                     <div className="skill-bx wow zoomIn about-container">
                         <div className="about">
