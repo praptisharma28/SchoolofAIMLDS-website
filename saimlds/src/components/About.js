@@ -11,7 +11,9 @@ const About = () => {
                     </div>
                     <div className="skill-bx wow zoomIn about-container">
                         <div className="about">
-                        At the School of AI, ML, and DS, we shape data-driven innovators. Our programs empower students in AI, ML, and DS. With hands-on learning, we foster curiosity and creativity. Expert mentors provide personalized support, fostering growth. We prepare individuals to tackle real-world challenges in AI, ML, and DS.
+                        The School of AI, ML, & DS is the heartbeat of a dynamic community, fostering collaboration among passionate learners and seasoned professionals in the ever-evolving realms of Data Science and Machine Learning. Our commitment is to create an environment where students actively engage with their peers, share innovative ideas, and collectively grow.
+                        <br/>
+                        🤝 Networking is at the core of our philosophy. We understand the transformative power of connections and actively encourage our members to forge relationships with professionals, mentors, and industry leaders. Harness the potential of networking to propel your career forward!
                         </div>
                         
                     </div>

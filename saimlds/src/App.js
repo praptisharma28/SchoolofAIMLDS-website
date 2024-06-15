@@ -13,8 +13,19 @@ import About from './components/About';
 import Events from './components/Domain';
 import Domain from './components/Domain';
 import Timeline from './components/Timeline';
+import { useEffect, useState } from 'react';
+import { Loader } from './components/Loader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(()=>setLoading(false), 2000)
+  }, [])
+  if(loading){
+    return <h1>
+      <Loader/>
+    </h1>
+  }
   return (
     <div className="App">
       <NavBar />
