@@ -19,15 +19,15 @@ import Stats from './components/Stats';
 import Faculty from './components/Faculty';
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(()=>setLoading(false), 2000)
-  // }, [])
-  // if(loading){
-  //   return <h1>
-  //     <Loader/>
-  //   </h1>
-  // }
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(()=>setLoading(false), 2000)
+  }, [])
+  if(loading){
+    return <h1>
+      <Loader/>
+    </h1>
+  }
   return (
     <div className="App">
       <NavBar />
