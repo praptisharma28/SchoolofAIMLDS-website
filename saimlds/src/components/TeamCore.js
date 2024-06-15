@@ -25,7 +25,7 @@ const data = [
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898965/Members%20pics/Vikas_Kumar_swbgkr.jpg",
     name: "Vikas Kumar",
     insta: "https://github.com/VikasKumar2001",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    Linkedin: "https://www.linkedin.com/in/vikaskumar142001/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898965/Members%20pics/Garvit_Agarwal_ylwzls.jpg",
