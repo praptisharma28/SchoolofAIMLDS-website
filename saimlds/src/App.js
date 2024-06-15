@@ -1,4 +1,3 @@
-// import logo from './logo.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -17,6 +16,7 @@ import { useEffect, useState } from 'react';
 import { Loader } from './components/Loader';
 import Footer2 from './components/Footer2';
 import Stats from './components/Stats';
+import Faculty from './components/Faculty';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,6 +38,7 @@ function App() {
       <Domain/>
       <Timeline/>
       {/* <Projects />  */}
+      <Faculty/>
       <TeamCore/>
       <TeamMember/>
       <Contact />

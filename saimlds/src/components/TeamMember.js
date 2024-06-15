@@ -96,15 +96,15 @@ const TeamMember = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1200 },
-      items: 4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 1200, min: 1024 },
-      items: 3,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -118,7 +118,6 @@ const TeamMember = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Team Members</h2>
-              <br></br>
               <br></br>
               <Carousel
                 responsive={responsive}

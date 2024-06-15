@@ -47,9 +47,8 @@ const TeamCore = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+            <div className="skill-bx wow zoomIn core-team">
               <h2>Core Team</h2>
-              <br></br>
               <br></br>
               <div className="core-team-container">
                 {data.map((val, index) => {

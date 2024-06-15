@@ -514,7 +514,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 
 .ReactModal__Content {
@@ -538,6 +538,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 90%;
   margin: 0 auto;
   position: relative;
+}
+.item{
+  min-height: 360px;
 }
 
 .skill-slider .item img {
@@ -700,12 +703,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* core team */
 
+.core-team{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .core-team-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  width: 100%;
+  gap: 50px;
+  width: 80%;
   flex-wrap: wrap;
 }
 
@@ -748,6 +758,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .react-multiple-carousel__arrow--left {
   right: calc(5%+ 10px);
 }
+
+/* @media (max-width: 768px) {
+  .core-team-container {
+    gap: 20px;
+  }
+
+  .skill-slider .item {
+    height: 200px;
+  }
+
+  .skill-slider .item .teamMemberImg {
+    width: 250px;
+    height: 250px;
+  }
+} */
 
 /************ Projects Css ************/
 .contact {
@@ -1272,20 +1297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #4A2FBD;
 }
 
-@media (max-width: 768px) {
-  .core-team-container {
-    gap: 20px;
-  }
 
-  .skill-slider .item {
-    height: 200px;
-  }
-
-  .skill-slider .item .teamMemberImg {
-    width: 250px;
-    height: 250px;
-  }
-}
 
 @media (min-width:1700px) {
   main .container {
@@ -1318,7 +1330,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner {
     padding: 150px 0;
+  }
 
+  .core-team-container {
+    gap: 0px;
   }
 
   .react-multiple-carousel__arrow--left {
