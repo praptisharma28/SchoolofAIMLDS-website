@@ -105,8 +105,8 @@ const Domain = () => {
                       {val.name}
                       <br />
                       <button className="name" onClick={() =>{ openModal(val); setSelectedDomain(val)}}>
-                        <span>
-                          <CiCircleMore size={20}/>
+                        <span style={{height:"20px"}}>
+                          <CiCircleMore size={"20px"}/>
                         </span>
                         Check out more here!
                       </button>

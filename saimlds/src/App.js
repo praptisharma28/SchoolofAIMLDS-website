@@ -15,6 +15,8 @@ import Domain from './components/Domain';
 import Timeline from './components/Timeline';
 import { useEffect, useState } from 'react';
 import { Loader } from './components/Loader';
+import Footer2 from './components/Footer2';
+import Stats from './components/Stats';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -32,13 +34,15 @@ function App() {
       <Banner />
       <About/>
       <Skills />
+      <Stats/>
       <Domain/>
       <Timeline/>
       {/* <Projects />  */}
       <TeamCore/>
       <TeamMember/>
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
+      <Footer2/>
     </div>
   );
 }
