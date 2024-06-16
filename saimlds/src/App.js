@@ -1,4 +1,3 @@
-// import logo from './logo.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -13,21 +12,36 @@ import About from './components/About';
 import Events from './components/Domain';
 import Domain from './components/Domain';
 import Timeline from './components/Timeline';
+import { useEffect, useState } from 'react';
+import { Loader } from './components/Loader';
+import Footer2 from './components/Footer2';
+import Stats from './components/Stats';
+import Faculty from './components/Faculty';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(()=>setLoading(false), 2000)
+  }, [])
+  if(loading){
+    return <h1>
+      <Loader/>
+    </h1>
+  }
   return (
     <div className="App">
       <NavBar />
       <Banner />
       <About/>
       <Skills />
+      <Stats/>
       <Domain/>
       <Timeline/>
-      {/* <Projects />  */}
+      <Faculty/>
       <TeamCore/>
       <TeamMember/>
       <Contact />
-      <Footer />
+      <Footer2/>
     </div>
   );
 }

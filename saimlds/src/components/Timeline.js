@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { AiFillChrome } from "react-icons/ai";
+import { FaRocket } from "react-icons/fa";
 const Timeline = () => {
   return (
     <div className="timeline" id="event">
@@ -16,7 +16,7 @@ const Timeline = () => {
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981452/Members%20pics/PXL_20231019_134022244_jio4ue.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">SkillSprint 1.0 </h3>
@@ -37,7 +37,7 @@ Revisiting our journey from Python to Tableau at SKILLSPRINT, an incredible odys
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981454/Members%20pics/skill2.0_qrunfb.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">SkillSprint 2.0 </h3>
@@ -57,7 +57,7 @@ Revisiting our journey from Python to Tableau at SKILLSPRINT, an incredible odys
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982212/Members%20pics/Ai_connect9_1_s9pira.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">AI Connect</h3>
@@ -77,7 +77,7 @@ Revisiting our journey from Python to Tableau at SKILLSPRINT, an incredible odys
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982114/Members%20pics/mls1_vop5pf.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">MLS Session 1.0 </h3>
@@ -97,7 +97,7 @@ Revisiting our journey from Python to Tableau at SKILLSPRINT, an incredible odys
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981494/Members%20pics/def1_liodyv.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">DefConnect </h3>
@@ -117,7 +117,7 @@ Revisiting our journey from Python to Tableau at SKILLSPRINT, an incredible odys
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date=""
         iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
-        icon={<AiFillChrome />}
+        icon={<FaRocket />}
       >
         <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981935/Members%20pics/cll_hljf5x.jpg" alt="Image" className="timeline-img" style={{height:"170px", width:"100%", objectFit:"cover"}}/>
         <h3 className="vertical-timeline-element-title">CII Global Innovation Summit </h3>

@@ -15,80 +15,80 @@ const data = [
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714920828/Members%20pics/Priyanshu_Mishra_1_y3yidl.jpg",
     name: "Priyanshu Mishra",
-    insta: "https://www.instagram.com/prapti.sharma_.../",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/PMishra1477",
+    Linkedin: "https://www.linkedin.com/in/pmishra1477?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/Sarthak_Aggarwal_xfmszk.jpg",
     name: "Sarthak Sharma",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/sarthak98765",
+    Linkedin: "https://www.linkedin.com/in/sarthakaggarwal0402/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714917077/Members%20pics/swatantra_u9c4tr.jpg",
     name: "Swatantra Agarwal",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/Starswaty",
+    Linkedin: "https://www.linkedin.com/in/swatantra-agarwal15/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898965/Members%20pics/Aamir_dvsctf.jpg",
     name: "Aamir",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/aamiransari072",
+    Linkedin: "https://www.linkedin.com/in/aamir-ansari-3370a2228/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898966/Members%20pics/Anurakt_n44vuy.png",
     name: "Anurakt Singh",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "hhttps://github.com/anurakt-singh",
+    Linkedin: "https://www.linkedin.com/in/anurakt-singh-bb7207261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898973/Members%20pics/Aditya_nxbxxp.jpg",
     name: "Aditya",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/Aadi813",
+    Linkedin: "https://www.linkedin.com/in/aditya-r-28ba93295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714917067/Members%20pics/Pawan_Jain_b1wlim.jpg",
     name: "Pawan Jain",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/pawanjain2004",
+    Linkedin: "https://www.linkedin.com/in/pawan-jain-754434272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898974/Members%20pics/Shine_Gupta_uxajpn.jpg",
     name: "Shine Gupta",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/Shine-5705",
+    Linkedin: "https://www.linkedin.com/in/shine-gupta-62b22b264",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898972/Members%20pics/Urvashi_q6ysvb.jpg",
     name: "Urvashi",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/urvashikush",
+    Linkedin: "https://www.linkedin.com/in/urvashi-kushwaha-9162a7288",
   },
   {
   img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714917083/Members%20pics/Khushi_Saini_djlyap.jpg",
   name: "Khushi Saini",
-  insta: "https://www.instagram.com/prapti.sharma_/",
-  Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+  insta: "https://github.com/Khushi14245",
+  Linkedin: "https://www.linkedin.com/in/khushi-saini-7a7841284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 },
 {
 img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/khushi_nnwz3n.jpg",
 name: "Khushi",
-insta: "https://www.instagram.com/prapti.sharma_/",
-Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+insta: "https://github.com/starkhushi",
+Linkedin: "https://www.linkedin.com/in/khushi-47507a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 },
 {
   img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898973/Members%20pics/vedanshi_mebzja.png",
   name: "Vedanshi",
-  insta: "https://www.instagram.com/prapti.sharma_/",
-  Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+  insta: "https://github.com/VedanshiK",
+  Linkedin: "https://www.linkedin.com/in/vedanshi-kaushik",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898974/Members%20pics/Ashutosh_hvldbr.jpg",
     name: "Ashutosh",
-    insta: "https://www.instagram.com/prapti.sharma_/",
-    Linkedin: "https://www.linkedin.com/in/prapti-sharma-7b0b3b1b4/",
+    insta: "https://github.com/ashu14243",
+    Linkedin: "https://www.linkedin.com/in/ashutosh-singh-4a6a81184",
     },
 ];
 
@@ -96,15 +96,15 @@ const TeamMember = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1200 },
-      items: 4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 1200, min: 1024 },
-      items: 3,
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -118,7 +118,6 @@ const TeamMember = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Team Members</h2>
-              <br></br>
               <br></br>
               <Carousel
                 responsive={responsive}
