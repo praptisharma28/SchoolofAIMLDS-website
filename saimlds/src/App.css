@@ -642,7 +642,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .background-image-left {
-  top: -3%;
+  top: -53%;
   position: absolute;
   /* bottom: 100px; */
   width: 40%;
@@ -1616,4 +1616,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .toastify p {
   margin-top: 14px;
+}
+
+.text-bg{
+  background-color: #121212;
+  font-size: 18px;
+  cursor: default;
+  margin-top: 10px;
+  color: #403f3f;
+}
+.hoverText {
+  transition:
+    0.35s font-weight,
+    0.35s color;
+}
+
+.hoverText:hover {
+  font-weight: 900;
+  color: #4A2FBD;
+}
+
+/* To the right */
+.hoverText:hover + .hoverText {
+  font-weight: 500;
+  color: #AA367C;
+}
+
+.hoverText:hover + .hoverText + .hoverText {
+  font-weight: 300;
+}
+
+/* To the left */
+.hoverText:has(+ .hoverText:hover) {
+  font-weight: 500;
+  color: r#AA367C;
+}
+
+.hoverText:has(+ .hoverText + .hoverText:hover) {
+  font-weight: 300;
 }

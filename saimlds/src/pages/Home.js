@@ -12,6 +12,7 @@ import TeamMember from '../components/TeamMember'
 import { Contact } from '../components/Contact'
 import Footer2 from '../components/Footer2'
 import Counter from '../components/Counter'
+import Example from '../components/Text'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <TeamCore />
       <TeamMember />
       <Contact />
+      <Example/>
       <Footer2 />
       <div className="counter-container navbar-text">
         <Counter />

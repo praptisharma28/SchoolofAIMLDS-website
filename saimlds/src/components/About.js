@@ -11,9 +11,9 @@ const About = () => {
                         </div>
                         <div className="skill-bx wow zoomIn about-container"  style={{padding:"50px 20px"}}>
                             <div className="about">
-                                The School of AI, ML, & DS is the heartbeat of a dynamic community, fostering collaboration among passionate learners and seasoned professionals in the ever-evolving realms of Data Science and Machine Learning. Our commitment is to create an environment where students actively engage with their peers, share innovative ideas, and collectively grow.
+                                The School of AI, ML, & DS is the heartbeat of a dynamic community, fostering collaboration among passionate learners and seasoned professionals in the ever-evolving realms of Data Science and Machine Learning. Our commitment is to create an environment where students actively engage with their peers, share innovative ideas, and collectively grow.🚀
                                 <br />
-                                🤝 Networking is at the core of our philosophy. We understand the transformative power of connections and actively encourage our members to forge relationships with professionals, mentors, and industry leaders. Harness the potential of networking to propel your career forward!
+                                 Networking 🤝 is at the core of our philosophy. We understand the transformative power of connections and actively encourage our members to forge relationships with professionals, mentors, and industry leaders. Harness the potential of networking to propel your career forward!
                             </div>
 
                         </div>
