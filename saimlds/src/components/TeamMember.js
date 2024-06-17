@@ -117,8 +117,8 @@ const TeamMember = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Team Members</h2>
-              <br></br>
+              {/* <h2>Team Members</h2>
+              <br></br> */}
               <Carousel
                 responsive={responsive}
                 infinite={true}

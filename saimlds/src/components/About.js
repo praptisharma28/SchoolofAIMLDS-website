@@ -6,10 +6,10 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="skill-bx wow zoomIn">
+                        <div className="skill-bx wow zoomIn"  >
                             <h1>About Us</h1>
                         </div>
-                        <div className="skill-bx wow zoomIn about-container">
+                        <div className="skill-bx wow zoomIn about-container"  style={{padding:"50px 20px"}}>
                             <div className="about">
                                 The School of AI, ML, & DS is the heartbeat of a dynamic community, fostering collaboration among passionate learners and seasoned professionals in the ever-evolving realms of Data Science and Machine Learning. Our commitment is to create an environment where students actively engage with their peers, share innovative ideas, and collectively grow.
                                 <br />

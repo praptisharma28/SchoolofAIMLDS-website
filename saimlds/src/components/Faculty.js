@@ -29,7 +29,7 @@ const data = [
 
 const Faculty = () => {
   return (
-    <section className="skill" id="team">
+    <section className="skill" id="faculty">
       <div className="container">
         <div className="row">
           <div className="col-12">

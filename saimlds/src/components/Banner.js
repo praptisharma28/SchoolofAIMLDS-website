@@ -47,7 +47,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div >
+                <div className="banner-text">
                   <span className="tagline">School of AI, ML & DS</span>
                   <h1>{`We teach`} <span className="txt-rotate" dataperiod="5500" data-rotate='[ "Artificial Intelligence", "Machine Learning", "Data Science" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Unleash the Power Together!</p>

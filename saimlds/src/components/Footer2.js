@@ -46,8 +46,8 @@ function Footer2() {
             <div className='footer-right-heading'>Other</div>
             <ul>
               <a href='#stats'><li>→Stats</li></a>
-              <a href='#'><li>→Domains</li></a>
-              <a href='#'><li>→Team</li></a>
+              <a href='#faculty'><li>→Faculty</li></a>
+              {/* <a href='#'><li>→Team</li></a> */}
             </ul>
 
           </div>
