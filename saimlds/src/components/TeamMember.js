@@ -112,7 +112,7 @@ const TeamMember = () => {
     },
   };
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="skills" style={{marginTop:"-20px"}}>
       <div className="container">
         <div className="row">
           <div className="col-12">
