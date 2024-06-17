@@ -2,13 +2,12 @@ import React from 'react';
 import logo from "../assets/img/logo.png";
 import logo1 from "../assets/img/KIC_logo.png";
 import logo2 from "../assets/img/LOGOS.png";
-import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
+import { Container} from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/email-svgrepo-com.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
-function Footer2() {
+function Footer2({ type}) {
   return (
     <footer className='footer'>
       <section className="footer-container" style={{ zIndex: "999" }}>
@@ -67,7 +66,7 @@ function Footer2() {
         </div>
       </Container>
 
-      <div style={{ zIndex: "-999", marginTop: "100px" }}>
+     <div style={{ zIndex: "-999", marginTop: "100px" }}>
         <svg
           className='footer-svg'
           xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +108,7 @@ function Footer2() {
             />
           </g>
         </svg>
-      </div>
+      </div> 
     </footer>
   );
 }
