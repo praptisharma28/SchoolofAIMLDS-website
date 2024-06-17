@@ -1498,7 +1498,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .toastify{
-  position: absolute;
+  z-index: 1000;
+  position: fixed;
   top: 100px;
   right: 10px;
   background-color: white;
@@ -1506,4 +1507,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 10px;
   width: 250px;
   text-align: center;
+  font-weight: 900;
+}
+
+.toastify p{
+  margin-top: 14px;
 }

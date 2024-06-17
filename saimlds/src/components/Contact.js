@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
@@ -14,7 +13,7 @@ export const Contact = () => {
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({}); 
+  const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -38,9 +37,13 @@ export const Contact = () => {
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
       setStatus({ success: true, message: 'Message sent successfully' });
+
     } else {
       setStatus({ success: false, message: 'Something went wrong, please try again later.' });
     }
+    setTimeout(() => {
+      setStatus({});
+    }, 3000);
   };
 
   return (
@@ -77,13 +80,13 @@ export const Contact = () => {
                         <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                         <button type="submit" style={{ borderRadius: "20px" }}><span>{buttonText}</span></button>
                       </Col>
-                      {
-                        status.message &&
-                        <div className="toastify">
-                          <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                        </div>
-                      }
                     </Row>
+                    {
+                      status.message &&
+                      <div className="toastify">
+                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                      </div>
+                    }
                   </form>
                 </div>}
             </TrackVisibility>
