@@ -13,17 +13,19 @@ import Footer2 from './components/Footer2';
 import Stats from './components/Stats';
 import Faculty from './components/Faculty';
 import Counter from './components/Counter';
+import { useEffect, useState } from 'react';
+import { Loader } from './components/Loader';
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(()=>setLoading(false), 2000)
-  // }, [])
-  // if(loading){
-  //   return <div>
-  //     <Loader/>
-  //   </div>
-  // }
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(()=>setLoading(false), 2000)
+  }, [])
+  if(loading){
+    return <div>
+      <Loader/>
+    </div>
+  }
   return (
     <div className="App">
       <NavBar />
