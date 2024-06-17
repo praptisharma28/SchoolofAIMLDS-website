@@ -1,7 +1,7 @@
 import React from 'react'
 export const Loader = () => {
     return (
-        <div style={{width:"100vw",height:"100vh", backgroundColor:"white",display:'flex',justifyContent:'center',alignItems:"center"}}>
+        <div style={{ width: "100vw", height: "100vh", backgroundColor: "white", display: 'flex', justifyContent: 'center', alignItems: "center" }}>
             <div className="loader">
                 <svg viewBox="0 0 80 80">
                     <circle id="test" cx="40" cy="40" r="32"></circle>

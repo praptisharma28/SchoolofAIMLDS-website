@@ -3,20 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
-// import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
 import TeamMember from './components/TeamMember';
 import TeamCore from './components/TeamCore';
 import About from './components/About';
-import Events from './components/Domain';
 import Domain from './components/Domain';
 import Timeline from './components/Timeline';
-import { useEffect, useState } from 'react';
-import { Loader } from './components/Loader';
 import Footer2 from './components/Footer2';
 import Stats from './components/Stats';
 import Faculty from './components/Faculty';
+import Counter from './components/Counter';
 
 function App() {
   // const [loading, setLoading] = useState(true);
@@ -32,16 +28,19 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <About/>
+      <About />
       <Skills />
-      <Stats/>
-      <Domain/>
-      <Timeline/>
-      <Faculty/>
-      <TeamCore/>
-      <TeamMember/>
+      <Stats />
+      <Domain />
+      <Timeline />
+      <Faculty />
+      <TeamCore />
+      <TeamMember />
       <Contact />
-      <Footer2/>
+      <Footer2 />
+      <div className="counter-container navbar-text">
+        <Counter />
+      </div>
     </div>
   );
 }

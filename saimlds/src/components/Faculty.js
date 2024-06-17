@@ -5,23 +5,23 @@ import navIcon3 from "../assets/img/github-alt-svgrepo-com.svg";
 const data = [
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/HimanshuBansal_jasgll.jpg",
-    title:"Dean IEC",
+    title: "Dean IEC",
     name: "Dr. K.L.A. khan",
     Linkedin: "https://www.linkedin.com/in/himanshu-bansal-06517322a/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/HimanshuBansal_jasgll.jpg",
-    title:"Head IC ",
+    title: "Head IC ",
     name: "Dr. S. Rathore",
     Linkedin: "https://www.linkedin.com/in/himanshu-bansal-06517322a/",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/HimanshuBansal_jasgll.jpg",
-    title:"Faculty incharge",
+    title: "Faculty incharge",
     name: "Dr. Sushil kumar",
     Linkedin: "https://www.linkedin.com/in/himanshu-bansal-06517322a/",
   },
-  
+
 ];
 
 const Faculty = () => {
