@@ -67,29 +67,29 @@ const data = [
     Linkedin: "https://www.linkedin.com/in/urvashi-kushwaha-9162a7288",
   },
   {
-  img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714917083/Members%20pics/Khushi_Saini_djlyap.jpg",
-  name: "Khushi Saini",
-  insta: "https://github.com/Khushi14245",
-  Linkedin: "https://www.linkedin.com/in/khushi-saini-7a7841284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-},
-{
-img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/khushi_nnwz3n.jpg",
-name: "Khushi",
-insta: "https://github.com/starkhushi",
-Linkedin: "https://www.linkedin.com/in/khushi-47507a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-},
-{
-  img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898973/Members%20pics/vedanshi_mebzja.png",
-  name: "Vedanshi",
-  insta: "https://github.com/VedanshiK",
-  Linkedin: "https://www.linkedin.com/in/vedanshi-kaushik",
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714917083/Members%20pics/Khushi_Saini_djlyap.jpg",
+    name: "Khushi Saini",
+    insta: "https://github.com/Khushi14245",
+    Linkedin: "https://www.linkedin.com/in/khushi-saini-7a7841284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/khushi_nnwz3n.jpg",
+    name: "Khushi",
+    insta: "https://github.com/starkhushi",
+    Linkedin: "https://www.linkedin.com/in/khushi-47507a250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898973/Members%20pics/vedanshi_mebzja.png",
+    name: "Vedanshi",
+    insta: "https://github.com/VedanshiK",
+    Linkedin: "https://www.linkedin.com/in/vedanshi-kaushik",
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898974/Members%20pics/Ashutosh_hvldbr.jpg",
     name: "Ashutosh",
     insta: "https://github.com/ashu14243",
     Linkedin: "https://www.linkedin.com/in/ashutosh-singh-4a6a81184",
-    },
+  },
 ];
 
 const TeamMember = () => {
@@ -129,13 +129,13 @@ const TeamMember = () => {
                     className="item"
                     key={index}
                   >
-                    <img src={item.img} alt="Image"  className="teamMemberImg" />
+                    <img src={item.img} alt="Image" className="teamMemberImg" />
                     <h5>{item.name}</h5>
                     <p>{item.role}</p>
                     <div className="social-icon">
-                    <a href={item.Linkedin} target="_blank"><img src={navIcon1} alt="" style={{marginTop:"10px"}}/></a>
-                    <a href={item.insta} target="_blank"><img src={navIcon3} style={{marginTop:"13px"}} alt="" /></a>
-              </div>
+                      <a href={item.Linkedin} target="_blank"><img src={navIcon1} alt="" style={{ marginTop: "10px" }} /></a>
+                      <a href={item.insta} target="_blank"><img src={navIcon3} style={{ marginTop: "13px" }} alt="" /></a>
+                    </div>
                   </div>
                 ))}
               </Carousel>

@@ -64,18 +64,18 @@ const Stats = () => {
 
                 <div className="wrapper">
                     <i className="fas fa-newspaper"></i>
-                    <div className='statsName'>Student trained </div>
+                    <div className='statsName'>Students trained </div>
                     <div className="counter" data-count="300">0</div>
                 </div>
 
                 <div className="wrapper">
                     <i className="fas fa-clock"></i>
-                    <div className='statsName'>Hackathon Victory </div>
+                    <div className='statsName'>Hackathon Victories </div>
                     <div className="counter" data-count="10">0</div>
                 </div>
                 <div className="wrapper">
                     <i className="fas fa-clock"></i>
-                    <div className='statsName'> Paper published </div>
+                    <div className='statsName'> Papers published </div>
                     <div className="counter" data-count="35">0</div>
                 </div>
             </div>

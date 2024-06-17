@@ -9,7 +9,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Artificial Intelligence", "Machine Learning", "Data Science" ];
+  const toRotate = ["Artificial Intelligence", "Machine Learning", "Data Science"];
   const period = 1000;
 
   useEffect(() => {
@@ -47,19 +47,19 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div >
-                <span className="tagline">School of AI, ML & DS</span>
-                <h1>{`We teach`} <span className="txt-rotate" dataPeriod="5500" data-rotate='[ "Artificial Intelligence", "Machine Learning", "Data Science" ]'><span className="wrap">{text}</span></span></h1>
+                <div >
+                  <span className="tagline">School of AI, ML & DS</span>
+                  <h1>{`We teach`} <span className="txt-rotate" dataperiod="5500" data-rotate='[ "Artificial Intelligence", "Machine Learning", "Data Science" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Unleash the Power Together!</p>
-                  
-              </div>}
+
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div >
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>
