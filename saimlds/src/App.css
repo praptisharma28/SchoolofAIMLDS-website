@@ -539,9 +539,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-.item{
+/* .item{
   min-height: 360px;
-}
+} */
 
 .skill-slider .item img {
   /* width: 50%; */
@@ -1345,6 +1345,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .about-container .about {
     width: 100%;
+  }
+  .item{
+    min-height: 260px;
   }
 
   .banner {

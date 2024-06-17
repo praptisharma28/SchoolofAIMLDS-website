@@ -14,13 +14,13 @@ function Footer2() {
       <section className="footer-container" style={{zIndex:"999"}}>
         <div className='footer-left-container'>
           <div className='footer-img-container'>
-          <a href='#'><img src={logo} alt="Avatar"/></a>
+          <a href='#'><img src={logo} alt="SAIMLDS"/></a>
           </div>
           <div className='footer-img-container'>
-          <a href='#'><img src={logo1} alt="Avatar"/></a>
+          <a href='#'><img src={logo1} alt="KIC"/></a>
           </div>
           <div className='footer-img-container'>
-          <a href='#'><img src={logo2} alt="Avatar"/></a>
+          <a href='https://www.kiet.edu/'  target='_blank'><img src={logo2} alt="KIET"/></a>
           </div>
         </div>
         <div className='footer-divider'></div>
@@ -30,7 +30,7 @@ function Footer2() {
                <ul>
                 <a href='#'><li>→Home</li></a>
                 <a href='#about'><li>→About</li></a>
-                <a href='#contact'><li>→Contact</li></a>
+                <a href='#connect'><li>→Contact</li></a>
                </ul>
                
             </div>
@@ -41,10 +41,9 @@ function Footer2() {
                 <a href='#domain'><li>→Domains</li></a>
                 <a href='#team'><li>→Team</li></a>
                </ul>
-               
             </div>
             <div >
-               <div className='footer-right-heading'>See this</div>
+               <div className='footer-right-heading'>Other</div>
                <ul>
                 <a href='#stats'><li>→Stats</li></a>
                 <a href='#'><li>→Domains</li></a>
