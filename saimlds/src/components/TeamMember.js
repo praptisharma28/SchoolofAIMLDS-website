@@ -20,7 +20,7 @@ const data = [
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/Sarthak_Aggarwal_xfmszk.jpg",
-    name: "Sarthak Sharma",
+    name: "Sarthak Agrawal",
     insta: "https://github.com/sarthak98765",
     Linkedin: "https://www.linkedin.com/in/sarthakaggarwal0402/",
   },
