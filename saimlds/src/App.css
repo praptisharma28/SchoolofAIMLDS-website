@@ -1530,15 +1530,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   gap: 20px;
 }
+
 .reference-section-heading{
   width: 100vw;
-  background-color: #000;
   position: fixed;
   top: 0;
   left: 0%;
   right: 0%;
   display: flex;
   justify-content: center;
+  background-color: #121212;
 }
 .reference-items{
   display: flex;
@@ -1551,7 +1552,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 20px;
   box-shadow: 0px 8px 28px -9px rgba(255, 253, 253, 0.45);
   width: 90%;
-  margin-top: 100px ;
+  margin-top: 20px ;
 }
 
 .reference-items h2{
@@ -1577,6 +1578,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .bullet::marker{
   color: rgb(46, 45, 45);
+}
+.tab-component{
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 50px;
+  width: 100vw;
+  background: #121212;
+  padding-bottom: 12px;
+}
+.tab-component .nav-item button{
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-tabs{
+  border: none;
 }
 
 @media (min-width:1700px) {

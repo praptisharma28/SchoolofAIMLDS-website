@@ -1,11 +1,10 @@
 import React from 'react';
 import { Col } from "react-bootstrap";
-import data from '../data/reference-data';
 
-const References = ({section}) => {
+const References = ({section,id,data}) => {
   return (
     <Col className=''>
-      <h2 className=''>{section}</h2>
+      <h2 className=''>{id}{"."}{section}</h2>
           <p>{data[section].Description}</p>
           <h3>Topics</h3>
           <ul>
