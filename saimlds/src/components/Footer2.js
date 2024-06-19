@@ -46,7 +46,7 @@ function Footer2({ type}) {
             <ul>
               <a href='#stats'><li>→Stats</li></a>
               <a href='#faculty'><li>→Faculty</li></a>
-              {/* <a href='#'><li>→Team</li></a> */}
+              <a href='/references'><li>→References</li></a>
             </ul>
 
           </div>
