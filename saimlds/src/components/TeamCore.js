@@ -45,7 +45,7 @@ const data = [
 const TeamCore = () => {
   return (
     <section className="skill" id="team">
-      <div className="container">
+      <div className="">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn core-team">
