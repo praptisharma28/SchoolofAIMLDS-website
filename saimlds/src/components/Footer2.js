@@ -19,7 +19,7 @@ function Footer2({ type}) {
             <a href='#'><img src={logo1} alt="KIC" /></a>
           </div>
           <div className='footer-img-container'>
-            <a href='https://www.kiet.edu/' target='_blank'><img src={logo2} alt="KIET" /></a>
+            <a href='https://www.kiet.edu/' target='_blank' rel="noreferrer"><img src={logo2} alt="KIET" /></a>
           </div>
         </div>
         <div className='footer-divider'></div>

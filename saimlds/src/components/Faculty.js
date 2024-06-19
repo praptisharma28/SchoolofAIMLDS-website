@@ -50,13 +50,13 @@ const Faculty = () => {
                         <span>{val.role}</span>
                       </div>
                       <div className="social-icon">
-                        <a href={val.Linkedin} target="_blank">
+                        <a href={val.Linkedin} target="_blank" rel="noreferrer">
                           <img
                             src={navIcon1}
-                            alt=""
+                            alt="linkedin"
                           />
                         </a>
-                        <a href={`mailto:${val.mail}`}><img src={navIcon2} alt="Icon" /></a>
+                        <a href={`mailto:${val.mail}`}><img src={navIcon2} alt="mail" /></a>
                       </div>
                     </div>
                   );

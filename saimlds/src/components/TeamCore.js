@@ -56,7 +56,7 @@ const TeamCore = () => {
                   return (
                     <div key={index} className="team-box">
                       <div className="team-img">
-                        <img src={val.img} alt="" />
+                        <img src={val.img} alt={val.name} />
 
                       </div>
                       <div className="team-info">
@@ -64,18 +64,18 @@ const TeamCore = () => {
                         <span>{val.role}</span>
                       </div>
                       <div className="social-icon">
-                        <a href={val.Linkedin} target="_blank">
+                        <a href={val.Linkedin} target="_blank" rel="noreferrer">
                           <img
                             src={navIcon1}
-                            alt=""
+                            alt="linkedIn"
                           />
                         </a>
-                        <a href={val.insta} target="_blank">
+                        <a href={val.insta} target="_blank" rel="noreferrer">
                           <img
                             src={navIcon3}
                             width={"100px"}
                             height={"100px"}
-                            alt=""
+                            alt="github"
                           />
                         </a>
                       </div>

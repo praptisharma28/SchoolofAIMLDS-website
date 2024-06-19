@@ -18,7 +18,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981452/Members%20pics/PXL_20231019_134022244_jio4ue.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981452/Members%20pics/PXL_20231019_134022244_jio4ue.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">SkillSprint 1.0 </h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
@@ -39,7 +39,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981454/Members%20pics/skill2.0_qrunfb.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981454/Members%20pics/skill2.0_qrunfb.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">SkillSprint 2.0 </h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
@@ -59,7 +59,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982212/Members%20pics/Ai_connect9_1_s9pira.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982212/Members%20pics/Ai_connect9_1_s9pira.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">AI Connect</h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
@@ -79,7 +79,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982114/Members%20pics/mls1_vop5pf.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714982114/Members%20pics/mls1_vop5pf.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">MLS Session 1.0 </h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
@@ -99,7 +99,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981494/Members%20pics/def1_liodyv.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981494/Members%20pics/def1_liodyv.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">DefConnect </h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
@@ -119,7 +119,7 @@ const Timeline = () => {
           iconStyle={{ background: "rgba(170, 54, 124)", color: "#fff" }}
           icon={<FaRocket />}
         >
-          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981935/Members%20pics/cll_hljf5x.jpg" alt="Image" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
+          <img src="https://res.cloudinary.com/db7nmlfln/image/upload/v1714981935/Members%20pics/cll_hljf5x.jpg" alt="WEBSITE_IMAGE" className="timeline-img" style={{ height: "170px", width: "100%", objectFit: "cover" }} />
           <h3 className="vertical-timeline-element-title">CII Global Innovation Summit </h3>
           <h4 className="vertical-timeline-element-subtitle"></h4>
           <p>
