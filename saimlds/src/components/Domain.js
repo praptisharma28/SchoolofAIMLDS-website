@@ -99,7 +99,7 @@ const Domain = () => {
                         src={val.img}
                         alt={val.name}
                         className="domain-img"
-                        style={{ height: "270px", width: "100%", objectFit: "cover", borderRadius: "20px" }}
+                        style={{ height: "170px", width: "100%", objectFit: "conver", borderRadius: "20px" }}
                       />
                       <br />
                       {val.name}

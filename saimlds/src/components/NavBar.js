@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import { HashLink } from 'react-router-hash-link';
-import { useNavigate,useLocation } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 
 export const NavBar = () => {
@@ -30,7 +30,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
             <img src={logo} alt="Logo" style={{ width: "80px" }} />
@@ -44,6 +44,7 @@ export const NavBar = () => {
               <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
               <Nav.Link href="#domain" className={activeLink === 'domain' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('domain')}>Domain</Nav.Link>
               <Nav.Link href="#event" className={activeLink === 'event' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('event')}>Events</Nav.Link>
+              <Nav.Link className={activeLink === 'event' ? 'active navbar-link' : 'navbar-link'} onClick={() => navigate('/references')}>References</Nav.Link>
               <Nav.Link className={activeLink === 'team' ? 'active navbar-link' : 'navbar-link'} onClick={() => navigate("/team")}>Team</Nav.Link>
             </Nav>
             <span className="navbar-text">

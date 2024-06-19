@@ -4,24 +4,6 @@ import navIcon3 from "../assets/img/github-alt-svgrepo-com.svg";
 
 const data = [
   {
-    img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/HimanshuBansal_jasgll.jpg",
-    name: "Himanshu Bansal",
-    insta: "https://github.com/invinciblebansal",
-    Linkedin: "https://www.linkedin.com/in/himanshu-bansal-06517322a/",
-  },
-  {
-    img: "https://res.cloudinary.com/db7nmlfln/image/upload/t_samarth/v1714898966/Members%20pics/Samarth_Tandon_h9a5db.jpg",
-    name: "Samarth Tandon",
-    insta: "https://github.com/Samarth-Tandon",
-    Linkedin: "https://www.linkedin.com/in/samarth-tandon/",
-  },
-  {
-    img: "https://res.cloudinary.com/db7nmlfln/image/upload/t_samarth/v1714898971/Members%20pics/Shantanu_Mishra_fugphv.jpg",
-    name: "Shantanu Mishra",
-    insta: "https://github.com/hellomishraa",
-    Linkedin: "https://www.linkedin.com/in/hellomishraa/",
-  },
-  {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898965/Members%20pics/Vikas_Kumar_swbgkr.jpg",
     name: "Vikas Kumar",
     insta: "https://github.com/VikasKumar2001",
@@ -39,6 +21,25 @@ const data = [
     insta: "https://github.com/gaurav-jnr",
     Linkedin: "https://www.linkedin.com/in/2oo3-gaurav/",
   },
+  {
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/HimanshuBansal_jasgll.jpg",
+    name: "Himanshu Bansal",
+    insta: "https://github.com/invinciblebansal",
+    Linkedin: "https://www.linkedin.com/in/himanshu-bansal-06517322a/",
+  },
+  {
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/t_samarth/v1714898966/Members%20pics/Samarth_Tandon_h9a5db.jpg",
+    name: "Samarth Tandon",
+    insta: "https://github.com/Samarth-Tandon",
+    Linkedin: "https://www.linkedin.com/in/samarth-tandon/",
+  },
+  {
+    img: "https://res.cloudinary.com/db7nmlfln/image/upload/t_samarth/v1714898971/Members%20pics/Shantanu_Mishra_fugphv.jpg",
+    name: "Shantanu Mishra",
+    insta: "https://github.com/hellomishraa",
+    Linkedin: "https://www.linkedin.com/in/hellomishraa/",
+  },
+  
 ];
 
 const TeamCore = () => {

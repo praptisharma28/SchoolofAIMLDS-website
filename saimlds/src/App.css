@@ -490,7 +490,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
   position: relative;
   width: 260px;
-  height: 380px;
+  height: 280px;
   border-radius: 16px;
   overflow: hidden;
   transition: 0.3s ease-in-out;
@@ -1519,6 +1519,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .notFound-btn{
   color: white;
+}
+
+/* REFERENCE PAGE CSS */
+
+.reference-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.reference-section-heading{
+  width: 100vw;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: center;
+}
+.reference-items{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* margin: 30px; */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 28px -9px rgba(255, 253, 253, 0.45);
+  width: 90%;
+  margin-top: 100px ;
+}
+
+.reference-items h2{
+  text-align: center;
+  color: rgb(46, 45, 45);
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.reference-items p{
+  font-weight: 200;
+  margin-left: 10px;
+}
+
+.reference-items h3{
+  color: rgb(56, 56, 56);
+}
+
+.description-heading{
+  font-weight: 800;
+  color: rgb(46, 45, 45);
+}
+
+.bullet::marker{
+  color: rgb(46, 45, 45);
 }
 
 @media (min-width:1700px) {
