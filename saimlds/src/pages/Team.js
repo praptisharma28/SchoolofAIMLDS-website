@@ -1,6 +1,6 @@
 import React from 'react'
 import TeamMember from '../components/TeamMember'
-import Faculty from '../components/Faculty'
+// import Faculty from '../components/Faculty'
 import TeamCore from '../components/TeamCore'
 import BackButton from '../components/BackButton'
 import { useLocation } from 'react-router-dom'

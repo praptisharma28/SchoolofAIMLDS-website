@@ -1,3 +1,5 @@
+/* eslint-disable-next-line */
+
 /************ Custom Font ************/
 @font-face {
   font-family: Centra;
@@ -1310,7 +1312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 10px;
   padding: 0;
 }
