@@ -20,7 +20,7 @@ const data = [
   },
   {
     img: "https://res.cloudinary.com/db7nmlfln/image/upload/v1714898963/Members%20pics/Sarthak_Aggarwal_xfmszk.jpg",
-    name: "Sarthak Sharma",
+    name: "Sarthak Agrawal",
     insta: "https://github.com/sarthak98765",
     Linkedin: "https://www.linkedin.com/in/sarthakaggarwal0402/",
   },
@@ -112,13 +112,13 @@ const TeamMember = () => {
     },
   };
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="skills" style={{marginTop:"-20px"}}>
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Team Members</h2>
-              <br></br>
+              {/* <h2>Team Members</h2>
+              <br></br> */}
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -129,12 +129,12 @@ const TeamMember = () => {
                     className="item"
                     key={index}
                   >
-                    <img src={item.img} alt="Image" className="teamMemberImg" />
+                    <img src={item.img} alt="WEBSITE_IMAGE" className="teamMemberImg" />
                     <h5>{item.name}</h5>
                     <p>{item.role}</p>
                     <div className="social-icon">
-                      <a href={item.Linkedin} target="_blank"><img src={navIcon1} alt="" style={{ marginTop: "10px" }} /></a>
-                      <a href={item.insta} target="_blank"><img src={navIcon3} style={{ marginTop: "13px" }} alt="" /></a>
+                      <a href={item.Linkedin} target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedIn" style={{ marginTop: "10px" }} /></a>
+                      <a href={item.insta} target="_blank" rel="noreferrer"><img src={navIcon3} style={{ marginTop: "13px" }} alt="mail" /></a>
                     </div>
                   </div>
                 ))}
@@ -143,7 +143,7 @@ const TeamMember = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="WEBSITE_IMAGE" />
     </section>
   );
 };

@@ -2,25 +2,24 @@ import React from 'react';
 import logo from "../assets/img/logo.png";
 import logo1 from "../assets/img/KIC_logo.png";
 import logo2 from "../assets/img/LOGOS.png";
-import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
+import { Container} from "react-bootstrap";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/email-svgrepo-com.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
-function Footer2() {
+function Footer2({ type}) {
   return (
     <footer className='footer'>
       <section className="footer-container" style={{ zIndex: "999" }}>
         <div className='footer-left-container'>
           <div className='footer-img-container'>
-            <a href='#'><img src={logo} alt="SAIMLDS" /></a>
+            <a href='/'><img src={logo} alt="SAIMLDS" /></a>
           </div>
           <div className='footer-img-container'>
-            <a href='#'><img src={logo1} alt="KIC" /></a>
+            <a href='/'><img src={logo1} alt="KIC" /></a>
           </div>
           <div className='footer-img-container'>
-            <a href='https://www.kiet.edu/' target='_blank'><img src={logo2} alt="KIET" /></a>
+            <a href='https://www.kiet.edu/' target='_blank' rel="noreferrer"><img src={logo2} alt="KIET" /></a>
           </div>
         </div>
         <div className='footer-divider'></div>
@@ -28,7 +27,7 @@ function Footer2() {
           <div >
             <div className='footer-right-heading'>Back to</div>
             <ul>
-              <a href='#'><li>→Home</li></a>
+              <a href='#nav'><li>→Home</li></a>
               <a href='#about'><li>→About</li></a>
               <a href='#connect'><li>→Contact</li></a>
             </ul>
@@ -46,8 +45,8 @@ function Footer2() {
             <div className='footer-right-heading'>Other</div>
             <ul>
               <a href='#stats'><li>→Stats</li></a>
-              <a href='#'><li>→Domains</li></a>
-              <a href='#'><li>→Team</li></a>
+              <a href='#faculty'><li>→Faculty</li></a>
+              <a href='/references'><li>→References</li></a>
             </ul>
 
           </div>
@@ -67,7 +66,7 @@ function Footer2() {
         </div>
       </Container>
 
-      <div style={{ zIndex: "-999", marginTop: "100px" }}>
+     <div style={{ zIndex: "-999", marginTop: "100px" }}>
         <svg
           className='footer-svg'
           xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +108,7 @@ function Footer2() {
             />
           </g>
         </svg>
-      </div>
+      </div> 
     </footer>
   );
 }

@@ -11,7 +11,7 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    backgroundColor: "black",
+    background: "linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)",
     borderRadius: "20px"
   },
 };
@@ -99,7 +99,7 @@ const Domain = () => {
                         src={val.img}
                         alt={val.name}
                         className="domain-img"
-                        style={{ height: "270px", width: "100%", objectFit: "conver", borderRadius: "20px" }}
+                        style={{ height: "170px", width: "100%", objectFit: "conver", borderRadius: "20px" }}
                       />
                       <br />
                       {val.name}

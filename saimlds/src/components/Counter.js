@@ -32,7 +32,7 @@ const Counter = () => {
 
   return (
     <button id="hitCounter" onClick={handleClick} style={{ background: 'none', border: 'none', cursor: 'pointer' }}>
-      <FcLike size={24} /> {count}
+      <span className='heart'><FcLike size={24} /></span> {count}
     </button>
   );
 };
